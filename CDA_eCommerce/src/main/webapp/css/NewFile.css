@@ -1,0 +1,787 @@
+@charset "UTF-8";
+/* Page login-------------------------------------------------------------------------------------------------------------------*/
+#bloc1{
+	width:27em;
+	float:left;
+	margin-left:10em;
+	margin-top:6em;
+	padding: 0 10px 16px 10px;
+	background: rgba(255,182,193,0.8);
+}
+#bloc2{
+	width:27em;
+	display:inline-block;
+	margin-left: 21em;
+	margin-top:6em;
+	padding:0 10px 0 10px;
+	background:rgba(255,182,193,0.8);
+}
+/* Page header-------------------------------------------------------------------------------------------------------------------*/
+li a:hover{
+	background:white;
+	color:#DF24EE;
+}
+
+.apropos{
+	color:#D069B9;
+	padding-top: 1px;
+	margin: 23px 0 0 7em;
+	border-radius: 50%;
+	text-align: center;
+}
+nav{
+	background-image:url("../img/nav44.jpg");
+	height: 8em;
+	font-family:sans-serif;
+	position:fixed;
+ 	border-bottom:solid 5px;
+    border-color:#F90FC4;
+    bottom:24px;
+    display:bloc;
+	width: 102%;
+	margin-left: -11px;
+}
+.recherche{
+	color:#D069B9;
+	margin-left: 15em;
+	padding-top: 11px;
+	border-radius: 50%;
+}
+.panier{
+	color:#F90FC4;
+	margin-left: 3em;
+	display:inline-block;
+	margin-top:45px;
+	border-radius: 50%;
+}
+.contact{
+	color:#D069B9;
+	margin-left: 8em;
+	padding-top:18px;
+	margin-top:27px;
+	border-radius: 50%;
+}
+.bienvenue{
+	color:#F90FC4;
+	display:flex;
+	margin:13px 0 1px 7em;
+	border-left:solid 2px;
+	border-radius: 50%;
+	border-bottom: solid 8px;
+}
+.deconnecter{
+	color:#F90FC4;
+	
+	border-color:pink;
+	border: solid 2px;
+}
+img{
+	 height:13em;
+}	
+body {
+	background-image:url("../img/fond45.jpg");
+	z-index:1;
+    background-size: cover;
+}
+#logo img{
+    height: 7em;
+    margin-bottom:25%;
+    margin: 0px 0 5px -16px;
+}
+#titre{
+	font-family: inherit;
+	color:white;
+}
+#imgpanier{
+	width: 29px;
+    height: 2em;
+}
+/* Footer--------------------------------------------------------------------------------------------------------------------*/
+footer {
+	background-image:url("../img/nav44.jpg");
+	bottom:0px;
+	margin: 0px;
+	min-height: 110px;
+	width: 100%;
+	text-align: center;
+	display: block;
+	padding-bottom:1px;
+	right: 0;
+ 	left:0;
+ 	border-top:solid 5px;
+    border-color:#F90FC4;
+}
+.lienssocial a{
+	display:inline-block;
+	margin-bottom:35px;
+
+	}
+
+.logo{
+	display:flex;
+	margin-bottom:60px;
+	margin-left: 4%;
+}
+h5{
+	font-size:small;
+	padding: 28px 0 0 7px;
+}
+#logo1{
+	color:#F90FC4;
+	width: 27%;
+    font-size: smaller;
+    margin-top: 2%;
+    padding: 0-1px 6em 0 0;
+    margin-right:8em;
+}
+#logo2{
+	color:#F90FC4;
+	width: 27%;
+    font-size: smaller;
+    margin-top: 2%;
+    margin-right:9em;
+}
+#logo3{
+	color:#F90FC4;
+	width: 27%;
+    font-size: smaller;
+    margin-top: 2%;
+}
+#fb{
+	border-radius:50%;
+	width: 3%;
+    height: 33px;
+    margin-right: 18px;
+}
+#youtube{
+	border-radius:50%;
+	width: 25px;
+   	width: 3%;
+    height: 33px;
+    margin-right: 18px;
+}
+#linkedin{
+	border-radius:70%;
+	width: 3%;
+    height: 33px;
+	
+}
+/*page recherche--------------------------------------------------------------------------------------------------------*/
+
+.check{
+	background:white;
+	width: 16em;
+	display:flex;
+	float:right;
+}
+
+#blocarticle{
+	background: white;
+    display: flex;
+    width: 67em;
+    height: 71em;
+    margin: 10px 0 46px 7em;
+    padding-top: 4em;
+    padding: 10px 0 0 0;
+    border: solid 5px;
+    color: #F90FC4;
+    flex-wrap: wrap;
+	
+}  
+.card1{
+	font-family:sans-serif;
+	color:white;
+	width: 21em;
+    height: 23em;
+    display:inline-block;
+}
+.art2{
+	font-family:sans-serif;
+	color:white;
+	width: 11em;
+    height: 14em;
+    display:inline-block;
+}
+.art3{
+	font-family:sans-serif;
+	color:white;
+	width: 11em;
+    height: 14em;
+    display:inline-block;
+}
+
+.art4{
+	font-family:sans-serif;
+	color:white;
+	width: 11em;
+    height: 14em;
+    display:inline-block;
+}
+.art5{
+	font-family:sans-serif;
+	color:white;
+	width: 11em;
+    height: 14em;
+    display:inline-block;
+}
+.art6{
+	font-family:sans-serif;
+	color:white;
+	width: 11em;
+    height: 14em;
+    display:inline-block;
+}
+
+.art7{
+	font-family:sans-serif;
+	color:white;
+	width: 11em;
+    height: 14em;
+    display:inline-block;
+}
+.art8{
+	font-family:sans-serif;
+	color:white;
+	width: 11em;
+    height: 14em;
+    display:inline-block;
+}
+.art9{
+	font-family:sans-serif;
+	color:white;
+	width: 11em;
+    height: 14em;
+    display:inline-block;
+}
+
+span{ 
+	background:#F90FC4;
+	margin: 20px 13px 7px 26px;
+	border: solid 2px;
+    border-color: pink;
+}
+
+#livre{
+
+	height: 12em;
+    width: 105%;
+}
+
+#nommin{
+	width: 12em;
+    margin: 0 0 0 17px;
+    background:#FCEAFE;
+}
+#nommax{
+	width: 12em;
+    margin: 0 0 0 17px;
+    background:#FCEAFE;
+}
+.apli{
+	background: rgb(255, 0, 255);
+    color: white;
+    border-color: rgb(255, 0, 255);
+    height: 5em;
+    width: 16em;
+    margin-top: 2em;
+}
+#ordre{
+	color:#F90FC4; 
+    border: solid 2px;
+    margin: 0px 0 0 0px;
+    padding: 0 0 0 50px;
+    background:#FCEBFE;
+}
+#categoriee{
+	color:#F90FC4; 
+    border: solid 2px;
+    margin: 0px 0 0 0px;
+    padding: 0 0 0 50px;
+    background:#FCEBFE;
+}
+.rech{
+	color:white;
+	background:#F90FC4;
+}
+.d-flex {
+   display: flex!important;
+   float: left;
+   margin: 0 7em 0 0;
+}
+.inputt{
+	 height: 3em;
+}
+/*page a propos-------------------------------------------------------------------------------------------------------*/
+
+#apropos{
+	color:white;
+	margin: 8em 16em 6em 15em;
+    background: rgba(255,182,193,0.8);
+    padding: 6em 6em 6em 6em;
+    width:56em;
+    border:solid 5px;
+    border-color:#F90FC4; 
+}
+
+/*page contact---------------------------------------------------------------------------------------------------------*/
+.message{
+ 	 width: 25em;
+ }
+ .textarea{
+ 	width: 34em;
+    height: 14em;
+ }
+ .bouton3{
+ 	width: 10em;
+ 	margin-left: 30%;
+ }
+	#blocontact{
+ 	background:rgba(255,182,193,0.5);
+ 	float: left;
+    margin-left: 8em;
+    margin-top:11em;
+    padding: 0 10px 14px 10px;
+    border:solid 5px;
+    border-color:#F90FC4;
+ }
+ 	#para{
+ 	background:rgba(255,182,193,0.8);
+ 	width: 18em;
+ 	display: inline-block;
+ 	color:white;
+ 	margin-left: 17em;
+ 	font-size:large;
+ 	margin-top: 13em;
+ 	padding: 26px 0 0 15px;
+ 	margin-bottom: 9em;
+ 	height:19em;
+ 	 border:solid 5px;
+    border-color:#F90FC4;
+ }
+.bout{
+	background:#F90FC4;
+	color:white;
+}
+h3{
+	border-bottom:solid 3px;
+	width:8em;
+}
+
+/*#un{
+	background:blue;
+}*/
+
+/*page Compte--------------------------------------------------------------------------------------------------------*/
+#bloc6{
+	background:rgba(255,182,193,0.8);
+	width:33em;
+	float: right;
+	padding: 12px 12px 12px 12px;
+	margin: 8em 8em 0 0;
+	
+}
+
+#bloc5{
+	background:rgba(255,182,193,0.8);
+	width:33em;
+	display:inline-block;
+	margin-left: 7em;
+	padding: 12px 12px 12px 12px;
+	margin-top: 8em;
+    margin-bottom: 13em;
+	
+}
+.sup{
+	background:#F90FC4;
+	display: inline-block;
+ 	margin-top: 0px;
+    padding: 5px 36px 6px 35px;
+    color: white;
+    font-family: unset;
+    font-size: large;
+}
+#misea{
+	color:#F90FC4;
+}	
+
+
+/*Page panier---------------------------------------------------------------------------------------------------------*/
+
+#recap{
+	background:rgba(255,182,193,0.8);
+	width: 43em;
+	margin: 6em 0 9em 27em;
+	padding: 34px 34px 34px 34px;
+	border:solid 5px;
+    border-color:#F90FC4;
+}
+
+
+.payer{
+	color:red;
+	width: 14em;
+	margin: 0 0 0 23em;
+}
+.payer1{
+	width: 14em;
+	margin: 0 0 0 23em;
+}
+.payer3{
+	color:yellow;
+}
+.article1{
+	color:pink;
+	width: 14em;
+}
+.article2{
+	color:yellow;
+	width: 14em;
+}
+.article3{
+	color:green;
+	width: 14em;
+}
+.total{
+	color:rgb(255, 0, 255);
+	margin-left:18em;
+	font-weight: 900;
+}
+h2{
+	color:white;
+	text-align: center;
+	padding-bottom: 40px;
+}
+.confirm{
+	background: white;
+    width: 28%;
+    border: solid;
+    color:rgb(255, 0, 255); 
+}
+/*Page paiement ------------------------------------------------------------------------------------------------------------------*/
+
+.confir{
+	background: violet;
+    border-radius: 0px;
+    height: 4em;
+    width: 17em;
+    margin:0px;
+}
+
+
+/*page produit---------------------------------------------------------------------------------------------------------------*/
+
+
+#bloc20{
+	
+	width:10em;
+	padding-bottom: 8em;
+    padding-top: 8em;
+    margin-left: 11em;
+}
+#nom{
+    width:30em;
+    height: 3em;
+}
+#reference{
+	width:30em;
+    height: 3em;
+}
+#description{
+ 	width:30em;
+    height: 3em;
+}
+#categorie{
+	width:30em;
+    height: 3em;
+}
+#prix{
+	width:30em;
+    height: 3em;
+}
+.ajout{
+	background:white;
+	color:pink;
+	margin-top: 2em;
+    border: solid;
+    width: 30em; 
+}
+
+/*page accueil img ----------------------------------------------------------------------------------------------------------------*/
+
+#img1{
+	height: 8em;
+    width: 7em;
+}
+#img2{
+	height: 8em;
+    width: 7em;
+}
+#img3{
+	height: 8em;
+    width: 7em;
+}
+#img4{
+	height: 8em;
+    width: 7em;
+}
+#img5{
+	height: 8em;
+    width: 7em;
+}
+#img6{
+	height: 8em;
+    width: 7em;
+}
+#img7{
+	height: 8em;
+    width: 7em;
+}
+#img8{
+	height: 8em;
+    width: 7em;
+}
+#img9{
+	height: 8em;
+    width: 7em;
+}
+#img10{
+	height: 8em;
+    width: 7em;
+}
+#img11{
+	height: 8em;
+    width: 7em;
+}
+#img12{
+	height: 8em;
+    width: 7em;
+}
+#img13{
+	height: 8em;
+    width: 7em;
+}
+.consulter{
+	background:#F90FC4;
+}
+.pop{
+	background:#F90FC4;;
+    width: 26em;
+    color:white;
+    border: solid 3px;
+    padding: 8px 0 0 8em;
+    height: 3em;
+    
+}
+.pop2{
+	background:#F90FC4;
+    width: 26em;
+    color:white;
+    border: solid 3px;
+    padding: 8px 0 0 8em;
+    height: 3em;
+    margin-top: 4em;
+}
+.pop3{
+	background:#F90FC4;
+    width: 26em;
+    color:white;
+    border: solid 3px;
+    padding: 8px 0 0 8em;
+    height: 3em;
+    margin-top: 4em;
+}
+
+#ajou{
+	 float: right;
+}
+/*page merci-------------------------------------------------------------------------------------------------------------------*/
+
+#merci{
+	border:solid 5px;
+	color:#F90FC4;
+    width: 37em;
+    margin: 131px 0 6em 30em;
+    padding: 24px 0px 1em 13px;
+}
+#merci2{
+	width: 20em;
+    margin-left: 15em;
+    font-size: xx-large;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    color:#F90FC4;
+}
+#bientot{
+	width: 5em;
+    color:#F90FC4;
+    font-size: xx-large;
+    margin-left: 21em;
+    margin-bottom: 4em;
+}
+#logomerci{
+	border-radius:50%;
+	height: 40px;
+    width: 43px;
+    margin-left: 50px;
+}
+.ajoutt{
+	color:white;
+	margin-left: 67em;
+    background: #F90FC4;
+    width: 10em;
+
+}
+
+
+/*page stock-------------------------------------------------------------------------------------------------------------*/
+.stock{
+	
+	margin:0px;
+	max-width: 100em;
+	padding-bottom: 2em;
+}
+.stock2{
+	color:#F90FC4;
+	margin:0;
+}
+.stock3{
+	color:none;
+}
+.stock4{
+	color:#F90FC4;
+	width:54em;
+}
+.table1{
+	
+	margin-left:60%;
+}
+.table2{
+	margin-left:64%;
+}
+#stock2{
+	color:#F90FC4;
+	width: 54em;
+	margin: 0 0 14px -11px;
+}
+#stock3{
+	color:#F90FC4;
+	width:54em;
+	
+}
+#stock6{
+	color:#F90FC4;
+    width: 54em
+}
+.enregistrer{
+	background:#F90FC4;
+	color:white;
+}
+#recherche{
+	background:#F90FC4;
+	color:white;
+}
+#modif{
+	color:#F90FC4;
+	width: 54em;
+}
+#modif2{
+	
+	margin: 0 0 67px 0;
+}
+.enre2{
+	background:#F90FC4;
+	color:white;
+}
+#saisir{
+    margin-left: 0;
+}
+#decol{
+	margin-left: 15vh;
+}
+/*page promotion --------------------------------------------------------------------------------------------------------*/
+
+#promo{
+	border:solid 2px;
+	color: #F90FC4;
+	height:12em;
+	margin-top: 3em;
+}
+.promo{
+	color: #F90FC4;
+    width: 15em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+#table20{
+	background: white;
+	color:#F90FC4;
+	margin-top: 3em;
+	margin-bottom: 2em;
+	border:solid 2px;
+}
+#table21{
+	background: white;
+	color:#F90FC4;
+	margin-bottom: 15em;
+	border:solid 2px;
+}
+/*Page listUSer----------------------------------------------------------------------------------------------------------------------*/
+
+.bloc10{
+	color:#F90FC4;
+	margin: 3em 0 10em 0em;
+    padding: 0 18em 10px 0;
+}
+#accés{
+	color:#F90FC4;
+	margin-bottom: 2em;
+    height: 3em;
+    border: solid 3px;
+    width: 12em;
+    margin-left: 17em;
+    padding: 20px 0 0 3px;
+}
+.tab{
+	text-align: center;
+    width: 54em;
+    margin: 0 0 0 21em;
+    border: solid 3px;
+}
+
+/* CSS Camille page descprition----------------------------------------------------------------------------------------------*/
+p{
+	font-size : 18px;
+}
+.p_white{
+	color : white;
+}
+.btn_ajout{
+   margin-left:1050px;
+   margin-right : 50px;
+}
+table{
+	margin-left : 1050px;
+}
+.etoile{
+	width:16px;
+	height:16px;
+}
+/* CSS Camille accueil-----------------------------------------------------------------------------------------------------------*/
+p{
+	font-size : 18px;
+}
+.hr{
+	border-color : white;
+	background-color : white;
+	color : white;
+}
+.p_white{
+	color : white;
+}
+/*CSS Camille page paiement ---------------------------------------------------------------------------------------------------*/
+p{
+	font-size : 18px;
+}
+hr{
+	width:30%;
+}
